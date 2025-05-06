@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer components{
+    .images-box{
+        @apply size-15 border-2 rounded border-white hover:border-purple-600 transition duration-750 hover:brightness-150 mb-2
+    }
+}
